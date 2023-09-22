@@ -19,7 +19,7 @@ header
     position: fixed;
     left: 0;
     top: 0;
-    right: 8px;
+    right: 2px;
 }
 
 #logo
@@ -31,13 +31,20 @@ header
 .title
 {
     margin-left: 1rem;
-    margin-right: 15rem;
+    margin-right: 25rem;
 }
 
 a
 {
     text-decoration: none;
     color: #94c2e7;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #ffa500;
+    text-shadow: 0.1rem 0.1rem 3px #151515;
 }
 
 .options
@@ -90,6 +97,11 @@ a
     border-radius: 1rem;
 }
 
+.buttonModels:hover
+{
+    color: #94c2e7;
+}
+
 .nowadaysImages
 {
     margin-left: auto;
@@ -140,9 +152,19 @@ input
     border-radius: 1rem;
 }
 
+input:hover
+{
+    background-color: #94c2e7;
+}
+
 select
 {
     border-radius: 1rem;
+}
+
+select:hover
+{
+    background-color: #94c2e7;
 }
 
 .attention
@@ -164,6 +186,17 @@ select
     height: 2rem;
     border-radius: 1rem;
     border-color: #94c2e7;
+}
+
+.search:hover
+{
+    background-color: #94c2e7;
+    color: #000000;
+}
+
+footer
+{
+    margin: -0.5rem;
 }
 
 .footerIcons
