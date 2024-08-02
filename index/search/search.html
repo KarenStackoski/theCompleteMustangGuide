@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Karen Bialescki Stackoski">
+        <meta name="description" content="The Complete Mustang Guide">
+        <link rel="icon" href="../../images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="search.css" type="text/css">
+        <title>The Complete Mustang Guide</title>
+    </head>
+    <body>
+        <header>
+            <img src="../../images/logo.png" alt="The Complete Mustang Guide Logo" id="logo">
+            <h1 class="title">The Complete Mustang Guide</h1>
+            <nav>
+                <a href="../mustangHistory/mustangHistory.html" class="options">History</a>
+                <a href="../iconicModels/iconicModels.html" class="options">Iconic models</a>
+                <a href="../nowadays/nowadays.html" class="options">Nowadays</a>
+                <a href="../creator/creator.html" class="options">About</a>
+                <a href="./search.html" class="options">Search</a>
+            </nav>
+        </header>
+        <main>
+            <h2 id="search" class="first">Search your favorite model</h2>
+            <form action="">
+                <label for="model" class="searchOptions">Model</label>
+                <input type="text" name="model" class="searchInputs" placeholder="Type your model">
+
+                <label for="year" class="searchOptions">Year</label>
+                <input type="number" name="year" class="searchInputs" placeholder="Ex: 1989">
+
+                <label for="type" class="searchOptions">Type</label>
+                <input type="text" name="type" id="type" list="listTypes" class="searchInputs">
+                <datalist id="listTypes">
+                    <option>Coupé</option>
+                    <option>Convertible</option>
+                    <option>Hatch</option>
+                    <option>Fastback</option>
+                </datalist>
+
+                <label for="gen" class="searchOptions">Generation</label>
+                <select name="gen" id="gen" class="searchInputs">
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                    <option value="6th">6th</option>
+                </select>
+
+                <label for="engine" class="searchOptions">Engine:</label>
+                <input type="radio" name="engine" id="ecoBoost" value="ecoBoost" class="searchInputs">
+                <label for="ecoBoost">Ecoboost</label>
+                <input type="radio" name="engine" id="v6" value="V6">
+                <label for="v6">V6</label>
+                <input type="radio" name="engine" id="v8" value="V8">
+                <label for="v8">V8</label>
+
+                <label for="engineLiter" class="searchOptions">Engine Liter:</label>
+                <input type="checkbox" name="liter" id="liter1" class="searchInputs">
+                <label for="liter1">2.3</label>
+                <input type="checkbox" name="liter" id="liter2">
+                <label for="liter2">3.2</label>
+                <input type="checkbox" name="liter" id="liter3">
+                <label for="liter3">4.7</label>
+                <input type="checkbox" name="liter" id="liter4">
+                <label for="liter4">4.9</label>
+                <input type="checkbox" name="liter" id="liter5">
+                <label for="liter5">5.0</label>
+                <input type="checkbox" name="liter" id="liter6">
+                <label for="liter6">5.2</label>
+                
+                <label for="maxSpeed" class="searchOptions">Max. speed</label>
+                <input type="range" min="80" max="500" step="5" name="maxSpeed" class="searchInputs">
+                <label for="speedLabel" class="attention">* The min. speed is 80kph and the max. speed is 500kph</label>
+                
+                <button class="search">Search</button>
+            </form>
+        </main>
+        <footer>
+            <h4>How to reach me</h4>
+            <a href="mailto:stackoskikaren@gmail.com"><img src="../../images/email.png" alt="E-mail" class="footerIcons"></a>
+            <a href="https://br.linkedin.com/in/karen-stackoski-a91634258"><img src="../../images/linkedin.png" alt="LinkedIn" class="footerIcons"></a>
+            <a href="https://github.com/KarenStackoski"><img src="../../images/github.png" alt="GitHub" class="footerIcons"></a>
+            <p id="developer">This page was developed by <a href="../creator/creator.html">Karen Stackoski</a></p>
+        </footer>
+    </body>
+</html>
