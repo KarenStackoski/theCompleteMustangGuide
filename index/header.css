@@ -1,0 +1,46 @@
+header, footer
+{
+    background-color: #000000;
+    padding: 0.5rem;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 2px;
+}
+
+#logo
+{
+    height: 5rem;
+    width: 9rem;
+}
+
+.title
+{
+    margin-left: 1rem;
+    margin-right: 25rem;
+}
+
+a
+{
+    text-decoration: none;
+    color: #94c2e7;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #ffa500;
+    text-shadow: 0.1rem 0.1rem 3px #151515;
+}
+
+.options
+{
+    margin-left: 1.5rem;
+}
