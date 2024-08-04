@@ -1,90 +1,63 @@
-html
-{
-    background-color: #222222;
-    color: #f0ffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/*
-HEADER AND OPTIONS
-*/
-header, footer
-{
-    background-color: #000000;
-    padding: 0.5rem;
-}
-
-header
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 2px;
-}
-
-#logo
-{
-    height: 5rem;
-    width: 9rem;
-}
-
-.title
-{
-    margin-left: 1rem;
-    margin-right: 25rem;
-}
-
-a
-{
-    text-decoration: none;
-    color: #94c2e7;
-}
-
-a:hover
-{
-    text-decoration: none;
-    color: #ffa500;
-    text-shadow: 0.1rem 0.1rem 3px #151515;
-}
-
-.options
-{
-    margin-left: 1.5rem;
-}
-/*
-############
-*/
-
 .first
 {
     margin-top: 7rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.firstSession{
+    display: flex;
+}
+
+.textFirstSession{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.secondSession{
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .creatorImage
 {
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto; */
+    margin-left: 2rem;
     display: block;
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2rem;
 }
 
-footer
-{
-    margin: -0.5rem;
+.thirdSession{
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
-.footerIcons
-{
-    height: 2rem;
-    width: 2rem;
-    margin-left: 1rem;
-}
-
-#developer
-{
+.cards{
     text-align: center;
+    width: 100%;
+}
+
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card{
+    flex: 1 1 200px; /* O item terá pelo menos 200px */
+    min-width: 150px; /* Tamanho mínimo antes de quebrar linha */
+    max-width: 220px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    background-color: #000000;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#card-container img{
+    width: 60px;
+    height: 60px;
+    align-self: center;
 }
