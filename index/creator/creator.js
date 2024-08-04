@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "image": "./img/mysql.png",
                 "title": "MySQL",
                 "description": "Utilizado como ferramenta de aprendizado",
-                "level": "Domiante",
+                "level": "Dominante",
                 "rating": 5.0
             },
             {
