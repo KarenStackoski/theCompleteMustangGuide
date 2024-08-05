@@ -174,6 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cardContent.appendChild(cardDescription);
             cardContent.appendChild(cardLevel);
             cardContent.appendChild(cardInfoContainer);
+            
             card.appendChild(img);
             card.appendChild(cardContent);
 

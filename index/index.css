@@ -1,0 +1,13 @@
+.first{
+    margin-top: 7rem;
+    margin-left: 2rem;
+}
+
+h1, p, ul{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+li{
+    margin-bottom: 1rem;
+}
