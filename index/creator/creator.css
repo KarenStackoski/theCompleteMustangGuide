@@ -46,8 +46,8 @@
 }
 
 .card{
-    flex: 1 1 200px; /* O item terá pelo menos 200px */
-    min-width: 150px; /* Tamanho mínimo antes de quebrar linha */
+    flex: 1 1 200px; 
+    min-width: 150px; 
     max-width: 220px;
     margin-right: 2rem;
     margin-bottom: 2rem;
